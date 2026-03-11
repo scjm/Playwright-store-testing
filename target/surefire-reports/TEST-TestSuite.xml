@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="99.103" tests="18" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/scottmacnevin/Desktop/z_fs_testing_site/vault-shadow-tests/target/test-classes:/Users/scottmacnevin/Desktop/z_fs_testing_site/vault-shadow-tests/target/classes:/Users/scottmacnevin/.m2/repository/com/microsoft/playwright/playwright/1.44.0/playwright-1.44.0.jar:/Users/scottmacnevin/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/scottmacnevin/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/scottmacnevin/.m2/repository/com/microsoft/playwright/driver/1.44.0/driver-1.44.0.jar:/Users/scottmacnevin/.m2/repository/com/microsoft/playwright/driver-bundle/1.44.0/driver-bundle-1.44.0.jar:/Users/scottmacnevin/.m2/repository/io/cucumber/cucumber-java/7.18.0/cucumber-java-7.18.0.jar:/Users/scottmacnevin/.m2/repository/io/cucumber/cucumber-core/7.18.0/cucumber-core-7.18.0.jar:/Users/scottmacnevin/.m2/repository/io/cucumber/cucumber-gherkin/7.18.0/cucumber-gherkin-7.18.0.jar:/Users/scottmacnevin/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.18.0/cucumber-gherkin-messages-7.18.0.jar:/Users/scottmacnevin/.m2/repository/io/cucumber/gherkin/28.0.0/gherkin-28.0.0.jar:/Users/scottmacnevin/.m2/repository/io/cucumber/messages/24.1.0/messages-24.1.0.jar:/Users/scottmacnevin/.m2/repository/io/cucumber/testng-xml-formatter/0.1.0/testng-xml-formatter-0.1.0.jar:/Users/scottmacnevin/.m2/repository/io/cucumber/query/12.2.0/query-12.2.0.jar:/Users/scottmacnevin/.m2/repository/io/cucumber/tag-expressions/6.1.0/tag-expressions-6.1.0.jar:/Users/scottmacnevin/.m2/repository/io/cucumber/cucumber-expressions/17.1.0/cucumber-expressions-17.1.0.jar:/Users/scottmacnevin/.m2/repository/io/cucumber/datatable/7.18.0/datatable-7.18.0.jar:/Users/scottmacnevin/.m2/repository/io/cucumber/cucumber-plugin/7.18.0/cucumber-plugin-7.18.0.jar:/Users/scottmacnevin/.m2/repository/io/cucumber/docstring/7.18.0/docstring-7.18.0.jar:/Users/scottmacnevin/.m2/repository/io/cucumber/html-formatter/21.3.1/html-formatter-21.3.1.jar:/Users/scottmacnevin/.m2/repository/io/cucumber/junit-xml-formatter/0.4.0/junit-xml-formatter-0.4.0.jar:/Users/scottmacnevin/.m2/repository/io/cucumber/ci-environment/10.0.1/ci-environment-10.0.1.jar:/Users/scottmacnevin/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/scottmacnevin/.m2/repository/io/cucumber/cucumber-testng/7.18.0/cucumber-testng-7.18.0.jar:/Users/scottmacnevin/.m2/repository/io/cucumber/cucumber-picocontainer/7.18.0/cucumber-picocontainer-7.18.0.jar:/Users/scottmacnevin/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/Users/scottmacnevin/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/scottmacnevin/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/scottmacnevin/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/scottmacnevin/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/scottmacnevin/.m2/repository/org/assertj/assertj-core/3.25.3/assertj-core-3.25.3.jar:/Users/scottmacnevin/.m2/repository/net/bytebuddy/byte-buddy/1.14.11/byte-buddy-1.14.11.jar:/Users/scottmacnevin/.m2/repository/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="America/Toronto"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/24.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/scottmacnevin/Desktop/z_fs_testing_site/vault-shadow-tests/target/surefire/surefirebooter-20260311152749833_3.jar /Users/scottmacnevin/Desktop/z_fs_testing_site/vault-shadow-tests/target/surefire 2026-03-11T15-27-49_800-jvmRun1 surefire-20260311152749833_1tmp surefire_0-20260311152749833_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/scottmacnevin/Desktop/z_fs_testing_site/vault-shadow-tests/target/test-classes:/Users/scottmacnevin/Desktop/z_fs_testing_site/vault-shadow-tests/target/classes:/Users/scottmacnevin/.m2/repository/com/microsoft/playwright/playwright/1.44.0/playwright-1.44.0.jar:/Users/scottmacnevin/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/scottmacnevin/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/scottmacnevin/.m2/repository/com/microsoft/playwright/driver/1.44.0/driver-1.44.0.jar:/Users/scottmacnevin/.m2/repository/com/microsoft/playwright/driver-bundle/1.44.0/driver-bundle-1.44.0.jar:/Users/scottmacnevin/.m2/repository/io/cucumber/cucumber-java/7.18.0/cucumber-java-7.18.0.jar:/Users/scottmacnevin/.m2/repository/io/cucumber/cucumber-core/7.18.0/cucumber-core-7.18.0.jar:/Users/scottmacnevin/.m2/repository/io/cucumber/cucumber-gherkin/7.18.0/cucumber-gherkin-7.18.0.jar:/Users/scottmacnevin/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.18.0/cucumber-gherkin-messages-7.18.0.jar:/Users/scottmacnevin/.m2/repository/io/cucumber/gherkin/28.0.0/gherkin-28.0.0.jar:/Users/scottmacnevin/.m2/repository/io/cucumber/messages/24.1.0/messages-24.1.0.jar:/Users/scottmacnevin/.m2/repository/io/cucumber/testng-xml-formatter/0.1.0/testng-xml-formatter-0.1.0.jar:/Users/scottmacnevin/.m2/repository/io/cucumber/query/12.2.0/query-12.2.0.jar:/Users/scottmacnevin/.m2/repository/io/cucumber/tag-expressions/6.1.0/tag-expressions-6.1.0.jar:/Users/scottmacnevin/.m2/repository/io/cucumber/cucumber-expressions/17.1.0/cucumber-expressions-17.1.0.jar:/Users/scottmacnevin/.m2/repository/io/cucumber/datatable/7.18.0/datatable-7.18.0.jar:/Users/scottmacnevin/.m2/repository/io/cucumber/cucumber-plugin/7.18.0/cucumber-plugin-7.18.0.jar:/Users/scottmacnevin/.m2/repository/io/cucumber/docstring/7.18.0/docstring-7.18.0.jar:/Users/scottmacnevin/.m2/repository/io/cucumber/html-formatter/21.3.1/html-formatter-21.3.1.jar:/Users/scottmacnevin/.m2/repository/io/cucumber/junit-xml-formatter/0.4.0/junit-xml-formatter-0.4.0.jar:/Users/scottmacnevin/.m2/repository/io/cucumber/ci-environment/10.0.1/ci-environment-10.0.1.jar:/Users/scottmacnevin/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/scottmacnevin/.m2/repository/io/cucumber/cucumber-testng/7.18.0/cucumber-testng-7.18.0.jar:/Users/scottmacnevin/.m2/repository/io/cucumber/cucumber-picocontainer/7.18.0/cucumber-picocontainer-7.18.0.jar:/Users/scottmacnevin/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/Users/scottmacnevin/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/scottmacnevin/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/scottmacnevin/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/scottmacnevin/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/scottmacnevin/.m2/repository/org/assertj/assertj-core/3.25.3/assertj-core-3.25.3.jar:/Users/scottmacnevin/.m2/repository/net/bytebuddy/byte-buddy/1.14.11/byte-buddy-1.14.11.jar:/Users/scottmacnevin/.m2/repository/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/scottmacnevin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/24.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/scottmacnevin/Desktop/z_fs_testing_site/vault-shadow-tests"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/scottmacnevin/Desktop/z_fs_testing_site/vault-shadow-tests/target/surefire/surefirebooter-20260311152749833_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="24.0.1"/>
+    <property name="user.name" value="scottmacnevin"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.3.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/scottmacnevin/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/3h/tjpxyk8n2kb5m98k069p03f00000gn/T/"/>
+    <property name="java.version" value="24.0.1"/>
+    <property name="user.dir" value="/Users/scottmacnevin/Desktop/z_fs_testing_site/vault-shadow-tests"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/scottmacnevin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="24.0.1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Shadow DOM page loads successfully&quot;, &quot;VAULT Shadow DOM Interactions&quot;](1)" classname="com.vault.shadowdom.runners.ShadowDomTestRunner" time="3.155">
+    <system-out><![CDATA[
+[VAULT] Launching Chromium browser...
+
+@ShadowDom @smoke @visibility
+Scenario: Shadow DOM page loads successfully                 # src/test/resources/features/shadow_dom.feature:15
+
+[VAULT] ▶ Starting scenario: Shadow DOM page loads successfully
+  [Page] Navigated to: https://ml-minds.com/shadow-dom
+  Given I navigate to the VAULT Shadow DOM page              # com.vault.shadowdom.steps.ShadowDomSteps.iNavigateToTheVaultShadowDomPage()
+  [Assert] Title: 'VAULT — The Playwright Testing Shop'
+  Then the page title should contain "VAULT"                 # com.vault.shadowdom.steps.ShadowDomSteps.thePageTitleShouldContain(java.lang.String)
+  [Debug] Shadow host: <shadow-demo-widget>, visible: true
+  And the shadow DOM container should be visible on the page # com.vault.shadowdom.steps.ShadowDomSteps.theShadowDomContainerShouldBeVisibleOnThePage()
+[VAULT] ■ Finished scenario: Shadow DOM page loads successfully → PASSED
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Shadow host element is present and accessible&quot;, &quot;VAULT Shadow DOM Interactions&quot;](2)" classname="com.vault.shadowdom.runners.ShadowDomTestRunner" time="2.593">
+    <system-out><![CDATA[
+@ShadowDom @smoke @visibility
+Scenario: Shadow host element is present and accessible # src/test/resources/features/shadow_dom.feature:20
+
+[VAULT] ▶ Starting scenario: Shadow host element is present and accessible
+  [Page] Navigated to: https://ml-minds.com/shadow-dom
+  Given I navigate to the VAULT Shadow DOM page         # com.vault.shadowdom.steps.ShadowDomSteps.iNavigateToTheVaultShadowDomPage()
+  Then a shadow host element should exist on the page   # com.vault.shadowdom.steps.ShadowDomSteps.aShadowHostElementShouldExistOnThePage()
+  And the shadow root should be accessible              # com.vault.shadowdom.steps.ShadowDomSteps.theShadowRootShouldBeAccessible()
+[VAULT] ■ Finished scenario: Shadow host element is present and accessible → PASSED
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Shadow DOM widgets render visible text content&quot;, &quot;VAULT Shadow DOM Interactions&quot;](3)" classname="com.vault.shadowdom.runners.ShadowDomTestRunner" time="2.68">
+    <system-out><![CDATA[
+@ShadowDom @smoke @content
+Scenario: Shadow DOM widgets render visible text content  # src/test/resources/features/shadow_dom.feature:25
+
+[VAULT] ▶ Starting scenario: Shadow DOM widgets render visible text content
+  [Page] Navigated to: https://ml-minds.com/shadow-dom
+  Given I navigate to the VAULT Shadow DOM page           # com.vault.shadowdom.steps.ShadowDomSteps.iNavigateToTheVaultShadowDomPage()
+  [Assert] Shadow text (80 chars): 'SHADOW DOM FORM This entire widget lives inside a Shadow DOM. Use Playwright's p...'
+  Then the shadow DOM should contain visible text content # com.vault.shadowdom.steps.ShadowDomSteps.theShadowDomShouldContainVisibleTextContent()
+  And the shadow content should not be empty              # com.vault.shadowdom.steps.ShadowDomSteps.theShadowContentShouldNotBeEmpty()
+[VAULT] ■ Finished scenario: Shadow DOM widgets render visible text content → PASSED
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;User can type into the shadow DOM form input&quot;, &quot;VAULT Shadow DOM Interactions&quot;](4)" classname="com.vault.shadowdom.runners.ShadowDomTestRunner" time="5.408">
+    <system-out><![CDATA[
+@ShadowDom @widget1 @form @input
+Scenario: User can type into the shadow DOM form input             # src/test/resources/features/shadow_dom.feature:34
+
+[VAULT] ▶ Starting scenario: User can type into the shadow DOM form input
+  [Page] Navigated to: https://ml-minds.com/shadow-dom
+  Given I navigate to the VAULT Shadow DOM page                    # com.vault.shadowdom.steps.ShadowDomSteps.iNavigateToTheVaultShadowDomPage()
+  [Step] Typed 'ShadowTest@vault.com' into shadow form input
+  When I type "ShadowTest@vault.com" into the shadow form input    # com.vault.shadowdom.steps.ShadowDomSteps.iTypeIntoTheShadowFormInput(java.lang.String)
+  [Assert] Form input value: 'ShadowTest@vault.com'
+  Then the shadow form input should contain "ShadowTest@vault.com" # com.vault.shadowdom.steps.ShadowDomSteps.theShadowFormInputShouldContain(java.lang.String)
+[VAULT] ■ Finished scenario: User can type into the shadow DOM form input → PASSED
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;User can clear and retype in the shadow DOM form input&quot;, &quot;VAULT Shadow DOM Interactions&quot;](5)" classname="com.vault.shadowdom.runners.ShadowDomTestRunner" time="10.007">
+    <system-out><![CDATA[
+@ShadowDom @widget1 @form @input
+Scenario: User can clear and retype in the shadow DOM form input # src/test/resources/features/shadow_dom.feature:39
+
+[VAULT] ▶ Starting scenario: User can clear and retype in the shadow DOM form input
+  [Page] Navigated to: https://ml-minds.com/shadow-dom
+  Given I navigate to the VAULT Shadow DOM page                  # com.vault.shadowdom.steps.ShadowDomSteps.iNavigateToTheVaultShadowDomPage()
+  [Step] Typed 'initial text' into shadow form input
+  When I type "initial text" into the shadow form input          # com.vault.shadowdom.steps.ShadowDomSteps.iTypeIntoTheShadowFormInput(java.lang.String)
+  [Step] Shadow form input cleared
+  And I clear the shadow form input                              # com.vault.shadowdom.steps.ShadowDomSteps.iClearTheShadowFormInput()
+  [Step] Typed 'updated text' into shadow form input
+  And I type "updated text" into the shadow form input           # com.vault.shadowdom.steps.ShadowDomSteps.iTypeIntoTheShadowFormInput(java.lang.String)
+  [Assert] Form input value: 'updated text'
+  Then the shadow form input should contain "updated text"       # com.vault.shadowdom.steps.ShadowDomSteps.theShadowFormInputShouldContain(java.lang.String)
+[VAULT] ■ Finished scenario: User can clear and retype in the shadow DOM form input → PASSED
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Submit button is enabled and clickable&quot;, &quot;VAULT Shadow DOM Interactions&quot;](6)" classname="com.vault.shadowdom.runners.ShadowDomTestRunner" time="4.706">
+    <system-out><![CDATA[
+@ShadowDom @widget1 @form @submit
+Scenario: Submit button is enabled and clickable     # src/test/resources/features/shadow_dom.feature:46
+
+[VAULT] ▶ Starting scenario: Submit button is enabled and clickable
+  [Page] Navigated to: https://ml-minds.com/shadow-dom
+  Given I navigate to the VAULT Shadow DOM page      # com.vault.shadowdom.steps.ShadowDomSteps.iNavigateToTheVaultShadowDomPage()
+  Then the shadow submit button should be enabled    # com.vault.shadowdom.steps.ShadowDomSteps.theShadowSubmitButtonShouldBeEnabled()
+  [Step] Clicked SUBMIT button
+  When I click the shadow DOM submit button          # com.vault.shadowdom.steps.ShadowDomSteps.iClickTheShadowDomSubmitButton()
+  Then no JS errors should be present in the console # com.vault.shadowdom.steps.ShadowDomSteps.noJsErrorsShouldBePresentInTheConsole()
+[VAULT] ■ Finished scenario: Submit button is enabled and clickable → PASSED
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;User can fill the form and submit it&quot;, &quot;VAULT Shadow DOM Interactions&quot;](7)" classname="com.vault.shadowdom.runners.ShadowDomTestRunner" time="7.473">
+    <system-out><![CDATA[
+@ShadowDom @widget1 @form @submit
+Scenario: User can fill the form and submit it              # src/test/resources/features/shadow_dom.feature:52
+
+[VAULT] ▶ Starting scenario: User can fill the form and submit it
+  [Page] Navigated to: https://ml-minds.com/shadow-dom
+  Given I navigate to the VAULT Shadow DOM page             # com.vault.shadowdom.steps.ShadowDomSteps.iNavigateToTheVaultShadowDomPage()
+  [Step] Typed 'test@example.com' into shadow form input
+  When I type "test@example.com" into the shadow form input # com.vault.shadowdom.steps.ShadowDomSteps.iTypeIntoTheShadowFormInput(java.lang.String)
+  [Step] Clicked SUBMIT button
+  And I click the shadow DOM submit button                  # com.vault.shadowdom.steps.ShadowDomSteps.iClickTheShadowDomSubmitButton()
+  Then no JS errors should be present in the console        # com.vault.shadowdom.steps.ShadowDomSteps.noJsErrorsShouldBePresentInTheConsole()
+[VAULT] ■ Finished scenario: User can fill the form and submit it → PASSED
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Shadow form input accepts various email formats&quot;, &quot;VAULT Shadow DOM Interactions&quot;](8)" classname="com.vault.shadowdom.runners.ShadowDomTestRunner" time="5.42">
+    <system-out><![CDATA[
+@ShadowDom @widget1 @form @parameterised
+Scenario Outline: Shadow form input accepts various email formats # src/test/resources/features/shadow_dom.feature:64
+
+[VAULT] ▶ Starting scenario: Shadow form input accepts various email formats
+  [Page] Navigated to: https://ml-minds.com/shadow-dom
+  Given I navigate to the VAULT Shadow DOM page                   # com.vault.shadowdom.steps.ShadowDomSteps.iNavigateToTheVaultShadowDomPage()
+  [Step] Typed 'user@example.com' into shadow form input
+  When I type "user@example.com" into the shadow form input       # com.vault.shadowdom.steps.ShadowDomSteps.iTypeIntoTheShadowFormInput(java.lang.String)
+  [Assert] Form input value: 'user@example.com'
+  Then the shadow form input should contain "user@example.com"    # com.vault.shadowdom.steps.ShadowDomSteps.theShadowFormInputShouldContain(java.lang.String)
+[VAULT] ■ Finished scenario: Shadow form input accepts various email formats → PASSED
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Shadow form input accepts various email formats&quot;, &quot;VAULT Shadow DOM Interactions&quot;](9)" classname="com.vault.shadowdom.runners.ShadowDomTestRunner" time="5.374">
+    <system-out><![CDATA[
+@ShadowDom @widget1 @form @parameterised
+Scenario Outline: Shadow form input accepts various email formats      # src/test/resources/features/shadow_dom.feature:65
+
+[VAULT] ▶ Starting scenario: Shadow form input accepts various email formats
+  [Page] Navigated to: https://ml-minds.com/shadow-dom
+  Given I navigate to the VAULT Shadow DOM page                        # com.vault.shadowdom.steps.ShadowDomSteps.iNavigateToTheVaultShadowDomPage()
+  [Step] Typed 'test.user+tag@domain.org' into shadow form input
+  When I type "test.user+tag@domain.org" into the shadow form input    # com.vault.shadowdom.steps.ShadowDomSteps.iTypeIntoTheShadowFormInput(java.lang.String)
+  [Assert] Form input value: 'test.user+tag@domain.org'
+  Then the shadow form input should contain "test.user+tag@domain.org" # com.vault.shadowdom.steps.ShadowDomSteps.theShadowFormInputShouldContain(java.lang.String)
+[VAULT] ■ Finished scenario: Shadow form input accepts various email formats → PASSED
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Shadow form input accepts various email formats&quot;, &quot;VAULT Shadow DOM Interactions&quot;](10)" classname="com.vault.shadowdom.runners.ShadowDomTestRunner" time="5.949">
+    <system-out><![CDATA[
+@ShadowDom @widget1 @form @parameterised
+Scenario Outline: Shadow form input accepts various email formats  # src/test/resources/features/shadow_dom.feature:66
+
+[VAULT] ▶ Starting scenario: Shadow form input accepts various email formats
+  [Page] Navigated to: https://ml-minds.com/shadow-dom
+  Given I navigate to the VAULT Shadow DOM page                    # com.vault.shadowdom.steps.ShadowDomSteps.iNavigateToTheVaultShadowDomPage()
+  [Step] Typed 'qa_engineer@vault.io' into shadow form input
+  When I type "qa_engineer@vault.io" into the shadow form input    # com.vault.shadowdom.steps.ShadowDomSteps.iTypeIntoTheShadowFormInput(java.lang.String)
+  [Assert] Form input value: 'qa_engineer@vault.io'
+  Then the shadow form input should contain "qa_engineer@vault.io" # com.vault.shadowdom.steps.ShadowDomSteps.theShadowFormInputShouldContain(java.lang.String)
+[VAULT] ■ Finished scenario: Shadow form input accepts various email formats → PASSED
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Counter starts at zero on page load&quot;, &quot;VAULT Shadow DOM Interactions&quot;](11)" classname="com.vault.shadowdom.runners.ShadowDomTestRunner" time="4.148">
+    <system-out><![CDATA[
+@ShadowDom @widget2 @counter
+Scenario: Counter starts at zero on page load   # src/test/resources/features/shadow_dom.feature:74
+
+[VAULT] ▶ Starting scenario: Counter starts at zero on page load
+  [Page] Navigated to: https://ml-minds.com/shadow-dom
+  Given I navigate to the VAULT Shadow DOM page # com.vault.shadowdom.steps.ShadowDomSteps.iNavigateToTheVaultShadowDomPage()
+  [Assert] Counter value: '0' (expected '0')
+  Then the shadow counter value should be "0"   # com.vault.shadowdom.steps.ShadowDomSteps.theShadowCounterValueShouldBe(java.lang.String)
+[VAULT] ■ Finished scenario: Counter starts at zero on page load → PASSED
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Increment button increases the counter&quot;, &quot;VAULT Shadow DOM Interactions&quot;](12)" classname="com.vault.shadowdom.runners.ShadowDomTestRunner" time="8.557">
+    <system-out><![CDATA[
+@ShadowDom @widget2 @counter
+Scenario: Increment button increases the counter # src/test/resources/features/shadow_dom.feature:78
+
+[VAULT] ▶ Starting scenario: Increment button increases the counter
+  [Page] Navigated to: https://ml-minds.com/shadow-dom
+  Given I navigate to the VAULT Shadow DOM page  # com.vault.shadowdom.steps.ShadowDomSteps.iNavigateToTheVaultShadowDomPage()
+  [Step] Clicking + button 3 times
+  [Counter] + clicked → 1
+  [Counter] + clicked → 2
+  [Counter] + clicked → 3
+  When I click the increment button 3 times      # com.vault.shadowdom.steps.ShadowDomSteps.iClickTheIncrementButtonTimes(int)
+  [Assert] Counter value: '3' (expected '3')
+  Then the shadow counter value should be "3"    # com.vault.shadowdom.steps.ShadowDomSteps.theShadowCounterValueShouldBe(java.lang.String)
+[VAULT] ■ Finished scenario: Increment button increases the counter → PASSED
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Clicking increment and decrement buttons does not throw JS errors&quot;, &quot;VAULT Shadow DOM Interactions&quot;](13)" classname="com.vault.shadowdom.runners.ShadowDomTestRunner" time="7.864">
+    <system-out><![CDATA[
+@ShadowDom @widget2 @counter
+Scenario: Clicking increment and decrement buttons does not throw JS errors # src/test/resources/features/shadow_dom.feature:83
+
+[VAULT] ▶ Starting scenario: Clicking increment and decrement buttons does not throw JS errors
+  [Page] Navigated to: https://ml-minds.com/shadow-dom
+  Given I navigate to the VAULT Shadow DOM page                             # com.vault.shadowdom.steps.ShadowDomSteps.iNavigateToTheVaultShadowDomPage()
+  [Step] Clicking + button 2 times
+  [Counter] + clicked → 1
+  [Counter] + clicked → 2
+  When I click the increment button 2 times                                 # com.vault.shadowdom.steps.ShadowDomSteps.iClickTheIncrementButtonTimes(int)
+  [Step] Clicking - button 1 times
+  [Counter] - clicked → 2
+  And I click the decrement button 1 times                                  # com.vault.shadowdom.steps.ShadowDomSteps.iClickTheDecrementButtonTimes(int)
+  Then no JS errors should be present in the console                        # com.vault.shadowdom.steps.ShadowDomSteps.noJsErrorsShouldBePresentInTheConsole()
+[VAULT] ■ Finished scenario: Clicking increment and decrement buttons does not throw JS errors → PASSED
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Shadow select dropdown has options available&quot;, &quot;VAULT Shadow DOM Interactions&quot;](14)" classname="com.vault.shadowdom.runners.ShadowDomTestRunner" time="2.604">
+    <system-out><![CDATA[
+@ShadowDom @widget3 @select
+Scenario: Shadow select dropdown has options available  # src/test/resources/features/shadow_dom.feature:93
+
+[VAULT] ▶ Starting scenario: Shadow select dropdown has options available
+  [Page] Navigated to: https://ml-minds.com/shadow-dom
+  Given I navigate to the VAULT Shadow DOM page         # com.vault.shadowdom.steps.ShadowDomSteps.iNavigateToTheVaultShadowDomPage()
+  [Assert] Select option count: 5
+  Then the shadow select should have more than 1 option # com.vault.shadowdom.steps.ShadowDomSteps.theShadowSelectShouldHaveMoreThanOption(int)
+[VAULT] ■ Finished scenario: Shadow select dropdown has options available → PASSED
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;User can select the second option in the shadow dropdown&quot;, &quot;VAULT Shadow DOM Interactions&quot;](15)" classname="com.vault.shadowdom.runners.ShadowDomTestRunner" time="4.744">
+    <system-out><![CDATA[
+@ShadowDom @widget3 @select
+Scenario: User can select the second option in the shadow dropdown # src/test/resources/features/shadow_dom.feature:97
+
+[VAULT] ▶ Starting scenario: User can select the second option in the shadow dropdown
+  [Page] Navigated to: https://ml-minds.com/shadow-dom
+  Given I navigate to the VAULT Shadow DOM page                    # com.vault.shadowdom.steps.ShadowDomSteps.iNavigateToTheVaultShadowDomPage()
+  [Select] Index 1 → 'Playwright'
+  When I select option at index 1 from the shadow dropdown         # com.vault.shadowdom.steps.ShadowDomSteps.iSelectOptionAtIndexFromTheShadowDropdown(int)
+  [Assert] Selected option: 'Playwright'
+  Then the shadow select should not show the default placeholder   # com.vault.shadowdom.steps.ShadowDomSteps.theShadowSelectShouldNotShowTheDefaultPlaceholder()
+[VAULT] ■ Finished scenario: User can select the second option in the shadow dropdown → PASSED
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;User can select multiple options in sequence without errors&quot;, &quot;VAULT Shadow DOM Interactions&quot;](16)" classname="com.vault.shadowdom.runners.ShadowDomTestRunner" time="6.818">
+    <system-out><![CDATA[
+@ShadowDom @widget3 @select
+Scenario: User can select multiple options in sequence without errors # src/test/resources/features/shadow_dom.feature:102
+
+[VAULT] ▶ Starting scenario: User can select multiple options in sequence without errors
+  [Page] Navigated to: https://ml-minds.com/shadow-dom
+  Given I navigate to the VAULT Shadow DOM page                       # com.vault.shadowdom.steps.ShadowDomSteps.iNavigateToTheVaultShadowDomPage()
+  [Select] Index 1 → 'Playwright'
+  When I select option at index 1 from the shadow dropdown            # com.vault.shadowdom.steps.ShadowDomSteps.iSelectOptionAtIndexFromTheShadowDropdown(int)
+  [Select] Index 2 → 'Cypress'
+  And I select option at index 2 from the shadow dropdown             # com.vault.shadowdom.steps.ShadowDomSteps.iSelectOptionAtIndexFromTheShadowDropdown(int)
+  [Assert] Selected option: 'Cypress'
+  Then the shadow select should not show the default placeholder      # com.vault.shadowdom.steps.ShadowDomSteps.theShadowSelectShouldNotShowTheDefaultPlaceholder()
+  And no JS errors should be present in the console                   # com.vault.shadowdom.steps.ShadowDomSteps.noJsErrorsShouldBePresentInTheConsole()
+[VAULT] ■ Finished scenario: User can select multiple options in sequence without errors → PASSED
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Shadow DOM elements are reachable by keyboard Tab navigation&quot;, &quot;VAULT Shadow DOM Interactions&quot;](17)" classname="com.vault.shadowdom.runners.ShadowDomTestRunner" time="6.914">
+    <system-out><![CDATA[
+@ShadowDom @keyboard @accessibility
+Scenario: Shadow DOM elements are reachable by keyboard Tab navigation # src/test/resources/features/shadow_dom.feature:113
+
+[VAULT] ▶ Starting scenario: Shadow DOM elements are reachable by keyboard Tab navigation
+  [Page] Navigated to: https://ml-minds.com/shadow-dom
+  Given I navigate to the VAULT Shadow DOM page                        # com.vault.shadowdom.steps.ShadowDomSteps.iNavigateToTheVaultShadowDomPage()
+  [Step] Page body focused
+  When I focus the page body                                           # com.vault.shadowdom.steps.ShadowDomSteps.iFocusThePageBody()
+  [Step] Tabbed 5 times
+  And I press Tab to navigate into the shadow DOM                      # com.vault.shadowdom.steps.ShadowDomSteps.iPressTabToNavigateIntoTheShadowDom()
+  Then a shadow DOM element should receive focus                       # com.vault.shadowdom.steps.ShadowDomSteps.aShadowDomElementShouldReceiveFocus()
+[VAULT] ■ Finished scenario: Shadow DOM elements are reachable by keyboard Tab navigation → PASSED
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Shadow DOM roots are accessible via JavaScript traversal&quot;, &quot;VAULT Shadow DOM Interactions&quot;](18)" classname="com.vault.shadowdom.runners.ShadowDomTestRunner" time="2.659">
+    <system-out><![CDATA[
+@ShadowDom @nested @advanced
+Scenario: Shadow DOM roots are accessible via JavaScript traversal            # src/test/resources/features/shadow_dom.feature:123
+
+[VAULT] ▶ Starting scenario: Shadow DOM roots are accessible via JavaScript traversal
+  [Page] Navigated to: https://ml-minds.com/shadow-dom
+  Given I navigate to the VAULT Shadow DOM page                               # com.vault.shadowdom.steps.ShadowDomSteps.iNavigateToTheVaultShadowDomPage()
+  Then nested shadow DOM elements should be reachable via JavaScript piercing # com.vault.shadowdom.steps.ShadowDomSteps.nestedShadowDomElementsShouldBeReachableViaJavaScriptPiercing()
+[VAULT] ■ Finished scenario: Shadow DOM roots are accessible via JavaScript traversal → PASSED
+]]></system-out>
+  </testcase>
+</testsuite>

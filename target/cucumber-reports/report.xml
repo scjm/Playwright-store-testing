@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="98.758" tests="18" skipped="0" failures="0" errors="0">
+<testcase classname="VAULT Shadow DOM Interactions" name="Shadow DOM page loads successfully" time="3.111">
+<system-out><![CDATA[
+Given I navigate to the VAULT Shadow DOM page...............................passed
+Then the page title should contain "VAULT"..................................passed
+And the shadow DOM container should be visible on the page..................passed
+]]></system-out>
+</testcase>
+<testcase classname="VAULT Shadow DOM Interactions" name="Shadow host element is present and accessible" time="2.591">
+<system-out><![CDATA[
+Given I navigate to the VAULT Shadow DOM page...............................passed
+Then a shadow host element should exist on the page.........................passed
+And the shadow root should be accessible....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="VAULT Shadow DOM Interactions" name="Shadow DOM widgets render visible text content" time="2.674">
+<system-out><![CDATA[
+Given I navigate to the VAULT Shadow DOM page...............................passed
+Then the shadow DOM should contain visible text content.....................passed
+And the shadow content should not be empty..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="VAULT Shadow DOM Interactions" name="User can type into the shadow DOM form input" time="5.403">
+<system-out><![CDATA[
+Given I navigate to the VAULT Shadow DOM page...............................passed
+When I type "ShadowTest@vault.com" into the shadow form input...............passed
+Then the shadow form input should contain "ShadowTest@vault.com"............passed
+]]></system-out>
+</testcase>
+<testcase classname="VAULT Shadow DOM Interactions" name="User can clear and retype in the shadow DOM form input" time="10.004">
+<system-out><![CDATA[
+Given I navigate to the VAULT Shadow DOM page...............................passed
+When I type "initial text" into the shadow form input.......................passed
+And I clear the shadow form input...........................................passed
+And I type "updated text" into the shadow form input........................passed
+Then the shadow form input should contain "updated text"....................passed
+]]></system-out>
+</testcase>
+<testcase classname="VAULT Shadow DOM Interactions" name="Submit button is enabled and clickable" time="4.702">
+<system-out><![CDATA[
+Given I navigate to the VAULT Shadow DOM page...............................passed
+Then the shadow submit button should be enabled.............................passed
+When I click the shadow DOM submit button...................................passed
+Then no JS errors should be present in the console..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="VAULT Shadow DOM Interactions" name="User can fill the form and submit it" time="7.467">
+<system-out><![CDATA[
+Given I navigate to the VAULT Shadow DOM page...............................passed
+When I type "test@example.com" into the shadow form input...................passed
+And I click the shadow DOM submit button....................................passed
+Then no JS errors should be present in the console..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="VAULT Shadow DOM Interactions" name="Shadow form input accepts various email formats - #1.1" time="5.416">
+<system-out><![CDATA[
+Given I navigate to the VAULT Shadow DOM page...............................passed
+When I type "user@example.com" into the shadow form input...................passed
+Then the shadow form input should contain "user@example.com"................passed
+]]></system-out>
+</testcase>
+<testcase classname="VAULT Shadow DOM Interactions" name="Shadow form input accepts various email formats - #1.2" time="5.369">
+<system-out><![CDATA[
+Given I navigate to the VAULT Shadow DOM page...............................passed
+When I type "test.user+tag@domain.org" into the shadow form input...........passed
+Then the shadow form input should contain "test.user+tag@domain.org"........passed
+]]></system-out>
+</testcase>
+<testcase classname="VAULT Shadow DOM Interactions" name="Shadow form input accepts various email formats - #1.3" time="5.944">
+<system-out><![CDATA[
+Given I navigate to the VAULT Shadow DOM page...............................passed
+When I type "qa_engineer@vault.io" into the shadow form input...............passed
+Then the shadow form input should contain "qa_engineer@vault.io"............passed
+]]></system-out>
+</testcase>
+<testcase classname="VAULT Shadow DOM Interactions" name="Counter starts at zero on page load" time="4.144">
+<system-out><![CDATA[
+Given I navigate to the VAULT Shadow DOM page...............................passed
+Then the shadow counter value should be "0".................................passed
+]]></system-out>
+</testcase>
+<testcase classname="VAULT Shadow DOM Interactions" name="Increment button increases the counter" time="8.554">
+<system-out><![CDATA[
+Given I navigate to the VAULT Shadow DOM page...............................passed
+When I click the increment button 3 times...................................passed
+Then the shadow counter value should be "3".................................passed
+]]></system-out>
+</testcase>
+<testcase classname="VAULT Shadow DOM Interactions" name="Clicking increment and decrement buttons does not throw JS errors" time="7.86">
+<system-out><![CDATA[
+Given I navigate to the VAULT Shadow DOM page...............................passed
+When I click the increment button 2 times...................................passed
+And I click the decrement button 1 times....................................passed
+Then no JS errors should be present in the console..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="VAULT Shadow DOM Interactions" name="Shadow select dropdown has options available" time="2.6">
+<system-out><![CDATA[
+Given I navigate to the VAULT Shadow DOM page...............................passed
+Then the shadow select should have more than 1 option.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="VAULT Shadow DOM Interactions" name="User can select the second option in the shadow dropdown" time="4.742">
+<system-out><![CDATA[
+Given I navigate to the VAULT Shadow DOM page...............................passed
+When I select option at index 1 from the shadow dropdown....................passed
+Then the shadow select should not show the default placeholder..............passed
+]]></system-out>
+</testcase>
+<testcase classname="VAULT Shadow DOM Interactions" name="User can select multiple options in sequence without errors" time="6.815">
+<system-out><![CDATA[
+Given I navigate to the VAULT Shadow DOM page...............................passed
+When I select option at index 1 from the shadow dropdown....................passed
+And I select option at index 2 from the shadow dropdown.....................passed
+Then the shadow select should not show the default placeholder..............passed
+And no JS errors should be present in the console...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="VAULT Shadow DOM Interactions" name="Shadow DOM elements are reachable by keyboard Tab navigation" time="6.911">
+<system-out><![CDATA[
+Given I navigate to the VAULT Shadow DOM page...............................passed
+When I focus the page body..................................................passed
+And I press Tab to navigate into the shadow DOM.............................passed
+Then a shadow DOM element should receive focus..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="VAULT Shadow DOM Interactions" name="Shadow DOM roots are accessible via JavaScript traversal" time="2.655">
+<system-out><![CDATA[
+Given I navigate to the VAULT Shadow DOM page...............................passed
+Then nested shadow DOM elements should be reachable via JavaScript piercing.passed
+]]></system-out>
+</testcase>
+</testsuite>

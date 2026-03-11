@@ -1,0 +1,170 @@
+<html>
+<head>
+<title>TestNG:  Shadow DOM Feature Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Shadow DOM Feature Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>18/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Mar 11 15:27:50 EDT 2026</td>
+</tr>
+<tr><td>Total time:</td><td>98 seconds (98942 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.vault.shadowdom.runners.ShadowDomTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.vault.shadowdom.runners.ShadowDomTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User can fill the form and submit it", "VAULT Shadow DOM Interactions"</td>
+<td></td>
+<td>7</td>
+<td>com.vault.shadowdom.runners.ShadowDomTestRunner@433d61fb</td></tr>
+<tr>
+<td title='com.vault.shadowdom.runners.ShadowDomTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.vault.shadowdom.runners.ShadowDomTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Shadow form input accepts various email formats", "VAULT Shadow DOM Interactions"</td>
+<td></td>
+<td>5</td>
+<td>com.vault.shadowdom.runners.ShadowDomTestRunner@433d61fb</td></tr>
+<tr>
+<td title='com.vault.shadowdom.runners.ShadowDomTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.vault.shadowdom.runners.ShadowDomTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Shadow host element is present and accessible", "VAULT Shadow DOM Interactions"</td>
+<td></td>
+<td>2</td>
+<td>com.vault.shadowdom.runners.ShadowDomTestRunner@433d61fb</td></tr>
+<tr>
+<td title='com.vault.shadowdom.runners.ShadowDomTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.vault.shadowdom.runners.ShadowDomTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Shadow DOM widgets render visible text content", "VAULT Shadow DOM Interactions"</td>
+<td></td>
+<td>2</td>
+<td>com.vault.shadowdom.runners.ShadowDomTestRunner@433d61fb</td></tr>
+<tr>
+<td title='com.vault.shadowdom.runners.ShadowDomTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.vault.shadowdom.runners.ShadowDomTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Increment button increases the counter", "VAULT Shadow DOM Interactions"</td>
+<td></td>
+<td>8</td>
+<td>com.vault.shadowdom.runners.ShadowDomTestRunner@433d61fb</td></tr>
+<tr>
+<td title='com.vault.shadowdom.runners.ShadowDomTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.vault.shadowdom.runners.ShadowDomTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Clicking increment and decrement buttons does not throw JS errors", "VAULT Shadow DOM Interactions"</td>
+<td></td>
+<td>7</td>
+<td>com.vault.shadowdom.runners.ShadowDomTestRunner@433d61fb</td></tr>
+<tr>
+<td title='com.vault.shadowdom.runners.ShadowDomTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.vault.shadowdom.runners.ShadowDomTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Shadow form input accepts various email formats", "VAULT Shadow DOM Interactions"</td>
+<td></td>
+<td>5</td>
+<td>com.vault.shadowdom.runners.ShadowDomTestRunner@433d61fb</td></tr>
+<tr>
+<td title='com.vault.shadowdom.runners.ShadowDomTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.vault.shadowdom.runners.ShadowDomTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User can select the second option in the shadow dropdown", "VAULT Shadow DOM Interactions"</td>
+<td></td>
+<td>4</td>
+<td>com.vault.shadowdom.runners.ShadowDomTestRunner@433d61fb</td></tr>
+<tr>
+<td title='com.vault.shadowdom.runners.ShadowDomTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.vault.shadowdom.runners.ShadowDomTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Shadow DOM roots are accessible via JavaScript traversal", "VAULT Shadow DOM Interactions"</td>
+<td></td>
+<td>2</td>
+<td>com.vault.shadowdom.runners.ShadowDomTestRunner@433d61fb</td></tr>
+<tr>
+<td title='com.vault.shadowdom.runners.ShadowDomTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.vault.shadowdom.runners.ShadowDomTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User can type into the shadow DOM form input", "VAULT Shadow DOM Interactions"</td>
+<td></td>
+<td>5</td>
+<td>com.vault.shadowdom.runners.ShadowDomTestRunner@433d61fb</td></tr>
+<tr>
+<td title='com.vault.shadowdom.runners.ShadowDomTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.vault.shadowdom.runners.ShadowDomTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Shadow form input accepts various email formats", "VAULT Shadow DOM Interactions"</td>
+<td></td>
+<td>5</td>
+<td>com.vault.shadowdom.runners.ShadowDomTestRunner@433d61fb</td></tr>
+<tr>
+<td title='com.vault.shadowdom.runners.ShadowDomTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.vault.shadowdom.runners.ShadowDomTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Shadow select dropdown has options available", "VAULT Shadow DOM Interactions"</td>
+<td></td>
+<td>2</td>
+<td>com.vault.shadowdom.runners.ShadowDomTestRunner@433d61fb</td></tr>
+<tr>
+<td title='com.vault.shadowdom.runners.ShadowDomTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.vault.shadowdom.runners.ShadowDomTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User can select multiple options in sequence without errors", "VAULT Shadow DOM Interactions"</td>
+<td></td>
+<td>6</td>
+<td>com.vault.shadowdom.runners.ShadowDomTestRunner@433d61fb</td></tr>
+<tr>
+<td title='com.vault.shadowdom.runners.ShadowDomTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.vault.shadowdom.runners.ShadowDomTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Submit button is enabled and clickable", "VAULT Shadow DOM Interactions"</td>
+<td></td>
+<td>4</td>
+<td>com.vault.shadowdom.runners.ShadowDomTestRunner@433d61fb</td></tr>
+<tr>
+<td title='com.vault.shadowdom.runners.ShadowDomTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.vault.shadowdom.runners.ShadowDomTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Counter starts at zero on page load", "VAULT Shadow DOM Interactions"</td>
+<td></td>
+<td>4</td>
+<td>com.vault.shadowdom.runners.ShadowDomTestRunner@433d61fb</td></tr>
+<tr>
+<td title='com.vault.shadowdom.runners.ShadowDomTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.vault.shadowdom.runners.ShadowDomTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Shadow DOM page loads successfully", "VAULT Shadow DOM Interactions"</td>
+<td></td>
+<td>3</td>
+<td>com.vault.shadowdom.runners.ShadowDomTestRunner@433d61fb</td></tr>
+<tr>
+<td title='com.vault.shadowdom.runners.ShadowDomTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.vault.shadowdom.runners.ShadowDomTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Shadow DOM elements are reachable by keyboard Tab navigation", "VAULT Shadow DOM Interactions"</td>
+<td></td>
+<td>6</td>
+<td>com.vault.shadowdom.runners.ShadowDomTestRunner@433d61fb</td></tr>
+<tr>
+<td title='com.vault.shadowdom.runners.ShadowDomTestRunner.runScenario()'><b>runScenario</b><br>Test class: com.vault.shadowdom.runners.ShadowDomTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User can clear and retype in the shadow DOM form input", "VAULT Shadow DOM Interactions"</td>
+<td></td>
+<td>10</td>
+<td>com.vault.shadowdom.runners.ShadowDomTestRunner@433d61fb</td></tr>
+</table><p>
+</body>
+</html>
